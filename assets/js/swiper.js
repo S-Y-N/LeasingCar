@@ -3,6 +3,7 @@ const swiper = new Swiper(".swiper", {
     speed: 600,
     pagination: {
         el: ".swiper-pagination",
+        clickable: true,
     },
     autoplay: {
         delay: 3000,
